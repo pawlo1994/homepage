@@ -1,4 +1,4 @@
-# Personal Homepage
+# Personal Homepage - Paweł Suchy
 ## Demo
 https://pawlo1994.github.io/homepage/
 ## Used Technologies
