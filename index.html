@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paweł Suchy - muzyk i przyszły frontend developer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/tableContainer.css">
+    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/container.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="container js-container">
+        <header>
+            <h1 class="header">Paweł Suchy - muzyk i przyszły frontend developer</h1>
+        </header>
+        <nav class="navigation">
+            <ul class="navigation__menu">
+                <li class="navigation__item"><a class="navigation__link" href="#">Home</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#about">O mnie</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#interests">Zainteresowania</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#achievments">Osiągnięcia</a></li>
+            </ul>
+            <button class="navigation__button js-changeThemeButton"><span
+                    class="js-changeThemeButtonInner">Ciemne</span>
+                tło</button>
+        </nav>
+        <main>
+            <section class="section" id="about">
+                <h2 class="section__header">O mnie</h2>
+                <button class="section__button js-imageButton"><span class="js-imageButtonInner">Ukryj</span>
+                    zdjęcie</button>
+                <img src="https://i.postimg.cc/7hGw8gHj/FB-IMG-1617907794460.jpg" class="section__image js-sectionImage"
+                    alt="Paweł Suchy">
+                <p class="section__paragraph">Nazywam się <strong>Paweł Suchy</strong>, mam 26 lat, mieszkam w
+                    Międzyrzeczu
+                    Dolnym koło Bielska-Białej.</p>
+                <p class="section__paragraph">Ukończyłem technikum infromatyczne w Zespole Szkół "Silesia" w
+                    Czechowicach-Dziedzicach jednak póki co nie pracuję w zawodzie.</p>
+                <p class="section__paragraph">Aktualnie pracuję na produkcji w branży Automotive jednak bardzo mocno
+                    wierzę w to,
+                    że po ukończeniu tego kursu uda mi się, jeśli nie zmienić pracę na stałe, to chociaż zacząć dorabiać
+                    na frontendzie.</p>
+                <p class="section__paragraph">Poza pracą od prawie 13 lat gram na puzonie a od prawie 12 w Młodzieżowej
+                    Orkiestrze Dętej Miejskiego Domu Kultury w Czechowicach-Dziedzicach. Poza tą orkiestrą miałem
+                    również okazję wziąć udział w czterech edycjach Żywieckiego Suwakowania a także zagrać dwa koncerty
+                    razem z zespołem Golec uOrkiestra.</p>
+            </section>
+            <section class="section" id="interests">
+                <h2 class="section__header">Moje Zainteresowania</h2>
+                <ul class="section__list">
+                    <li class="section__item">Muzyka</li>
+                    <li class="section__item">Technologie</li>
+                    <li class="section__item">Frontend 💪</li>
+                </ul>
+            </section>
+            <section class="section" id="achievments">
+                <h2 class="section__header">Osiągnięcia</h2>
+                <div class="tableContainer">
+                    <table class="table">
+                        <caption class="table__caption">Moje Osiągnięcia</caption>
+                        <tr class="table__row">
+                            <th class="table__cell table__cell--header" scope="col">Rok</th>
+                            <th class="table__cell table__cell--header" scope="col">Miesiąc</th>
+                            <th class="table__cell table__cell--header" scope="col">Opis</th>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell table__cell--header" scope="row">2014</th>
+                            <td class="table__cell">Maj</td>
+                            <td class="table__cell">Koncert z zespołem Golec uOrkiestra z okazji 25-lecia Bielskiego
+                                Centrum
+                                Kultury
+                            </td>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell table__cell--header" scope="row">2018</th>
+                            <td class="table__cell">Listopad</td>
+                            <td class="table__cell">Koncert z zespołem Golec uOrkiestra w ramach koncertu charytatywnego
+                                w
+                                Miejskim
+                                Domu Kultury w Czechowicach-Dziedzicach
+                            </td>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell table__cell--header" scope="row">2020</th>
+                            <td class="table__cell">Czerwiec</td>
+                            <td class="table__cell">Ukończenie darmowego kursu HTML/CSS od podstaw w serwisie Youcode.pl
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">Copyright &copy; Paweł Suchy 2021</footer>
+    </div>
+</body>
+
+</html>
